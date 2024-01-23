@@ -1,8 +1,11 @@
 #### ---------- Развертывание приложения для локального тестирования --------------
 
 docker-compose build
+
 docker-compose up -d
+
 docker exec -it php-test php artisan migrate
+
 docker exec -it php-test php artisan db:seed
 
 ___________________________________________________________________________________
