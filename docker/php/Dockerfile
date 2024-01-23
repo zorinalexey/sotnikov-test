@@ -1,0 +1,1 @@
+FROM docker.io/bitnami/php-fpm:8.3
